@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js" ></script>
+	</head>
+	<body>
+		<!--跳转
+			<div data-role = "page" id="pageone">
+			<div data-role="header">
+				<h2>欢迎来到我的主页女</h2>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<p>点击链接查看右到左华东的效果</p>
+				<a href="#pagetwo" data-transition = "pop">弹出第二个页面。通过滑动来显示对话框</a>			
+			</div>
+			<div data-role = "footer">
+				<h1>底部文本</h1>
+			</div>
+		</div>
+		
+		<div data-role = "page" id="pagetwo">
+			<div data-role="header">
+				<h2>欢迎来到我的主页女</h2>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<p>点击返回上一页</p>
+				<a href="#pageone" data-transition = "pop">返回第一个页面。通过滑动来显示对话框</a>
+			
+			</div>
+			<div data-role = "footer">
+				<h1>底部文本</h1>
+			</div>
+		</div>
+		-->
+		<!--按钮-->
+		<!--<div data-role = "page" id="pageone">
+			<div data-role = "header">
+				<h1>按钮</h1>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<button class="ui-btn">按钮</button>
+				<input type="button" value="按钮" />
+				<a href="#" class="ui-btn"> 按钮</a>
+			</div>
+			<div data-role = "footer">
+				<h1>文本底部</h1>
+			</div>
+		</div>-->
+		<!--导航按钮-->
+		<!--<div data-role = "page" id="pageone">
+			<div data-role = "header">
+				<h1>按钮</h1>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<p>欢迎</p>
+				<a href="#pagetwo" data-role = "button" class="ui-btn pop">访问第二页</a>
+			</div>
+			<div data-role = "footer">
+				<h1>底部文本</h1>
+			</div>
+		</div>
+		<div data-role = "page" id="pagetwo">
+			<div data-role = "header">
+				<h1>按钮</h1>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<p>再见</p>
+				<a href="#pageone" class="ui-btn pop">返回第一页</a>
+			</div>
+			<div data-role = "footer">
+				<h1>底部文本</h1>
+			</div>
+		</div>-->
+		<!--内敛按钮-->
+		<!--<div data-role = "page" id="pageone">
+			<div data-role = "header">
+			 	<h1>欢迎来到我的主页</h1>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<p>普通/默认按钮</p>
+				<a href="#pagetwo" class="ui-btn">访问第二个页面</a>
+				<p>内联按钮</p>
+				<a href="#pagetwo" class="ui-btn ui-btn-inline">访问第二个页面</a>
+			</div>
+			<dia data-role = "footer">
+				<h1底部文本></h1>
+			</dia>
+			
+		</div>
+		<div data-role = "page" id="pagetwo">
+			<div data-role = "header">
+			 	<h1>欢迎来到我的主页</h1>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<p>普通/默认按钮</p>
+				<a href="#pageone" class="ui-btn">返回第一个页面</a>
+				<p>内联按钮</p>
+				<a href="#pageone" class="ui-btn ui-btn-inline">返回第一个页面</a>
+				<a href="#pageone" class="ui-btn ui-btn-inline">返回第一个页面</a>
+				<a href="#pageone" class="ui-btn ui-btn-inline">返回第一个页面</a>
+			</div>
+			<dia data-role = "footer">
+				<h1底部文本></h1>
+			</dia>
+			
+		</div>-->
+		<!--组合按钮-->
+		<!--<div data-role = "page" id="pageone">
+			<div data-role = "header">
+				<h1> 组合按钮</h1>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<div data-role = "controlgroup" data-type="horizontal">
+					<p>水平组合按钮</p>
+					<a href="#" class="ui-btn ui-btn-inline ui-btn-b">按钮</a>
+					<a href="#" class="ui-btn ">按钮</a>
+					<a href="#" class="ui-btn ui-mini ui-shadow">按钮</a>
+				</div><br>
+				<di data-role = "controlgroup" data-type = "vertical"> 
+					<p>垂直组合按钮（默认）</p>
+					<a href="#" class="ui-btn ui-corner-all">按钮</a>
+					<a href="#" class="ui-btn ui-btn-inline ui-btn-b" >按钮</a>
+					<a href="#" class="ui-btn ui-shadow">按钮</a>
+				</di>				
+			</div>
+			<div data-role = "footer">
+				<h1>文本底部</h1>
+			</div>
+		</div>-->
+		<!--后退按钮-->
+		<!--<div data-role = "page" id="pageone">
+			<div data-role = "header">
+				<p>欢迎</p>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<a href="#pagetwo" class="ui-btn">访问第二个页面</a>
+			</div>
+			<div data-role = "footer">
+				<p>文本底部</p>
+			</div>
+		</div>
+		<div data-role = "page" id="pagetwo">
+			<div data-role = "header">
+				<p>在建</p>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<a href="#pageone" class="ui-btn" class="back">返回第一个页面</a>
+			</div>
+			<div data-role = "footer">
+				<p>文本底部</p>
+			</div>
+		</div>-->
+		<!--按钮图标-->
+		<!--<div data-role = "page" id="pageone">
+			<div data-role = "main" class="ui-content">
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-left ui-alt-icon"></a>
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-notext ui-corner-all ui-shadow ui-alt-icon"></a>
+				<a href="#" class="ui-btn ui-icon-arrow-l  ui-btn-icon-notext"></a>
+				<a href="#" class="ui-btn ui-icon-arrow-r ui-btn-icon-right"></a>
+				<a href="#" class="ui-btn ui-icon-info ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-delete ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-back ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-audio ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-lock ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-alert ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-grid ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-home ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-phone ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-power ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-shop ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-heart ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-check ui-btn-icon-left"></a>
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-bottom"> </a>
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-right"> </a>
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-top"> </a>
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-notext"> </a>
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-left ui-nodisc-icon">去掉背影圆圈 </a>
+			</div>
+		</div>-->
+		<div data-role = "page" id="pageone">	
+			<div data-role = "header">
+				<a href="#" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">主页</a>
+				<h1>欢迎访问我的主页</h1>
+				<a href="#" class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-btn-icon-left ui-icon-search">搜索</a>
+			</div>
+			<div data-role = "main" class="ui-content">
+				<p>改按钮仅用于演示，不会有任何效果</p>
+				<p>注意我们在头部按钮上添加了 "ui-corner-all" 和 "ui-shadow" 类，使他看起来更美观点。</p>				
+			</div>
+			<div data-role = "footer" style="text-align: center;">
+				<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">在Facebook上关注我</a>
+				<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">在Facebook上关注我</a>
+				<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">在Facebook上关注我</a>
+			</div>
+		</div>
+			
+	</body>
+</html>
